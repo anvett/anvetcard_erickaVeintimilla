@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lato:wght@400;700&display=swap');
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -73,11 +76,11 @@
 }
 
 .main-button {
-  @apply bg-primary text-light font-bold px-6 py-3 rounded-full   hover:bg-accent hover:text-primary transition ease-in duration-300 transform hover:scale-110;
+  @apply bg-accent text-light font-bold px-6 py-3 rounded-full   hover:bg-primary hover:text-light transition ease-in duration-300 transform hover:scale-110;
 }
 
 .contact-button {
-  @apply bg-primary text-light   px-4 py-3 rounded-full sm:px-6 hover:bg-accent hover:text-primary transition ease-in duration-300 transform hover:scale-110 ; 
+  @apply bg-accent text-light   px-4 py-3 rounded-full sm:px-6 hover:bg-primary hover:text-light transition ease-in duration-300 transform hover:scale-110 ; 
   @apply w-32 md:w-36 ;
 }
 

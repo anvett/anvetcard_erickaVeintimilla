@@ -20,12 +20,12 @@ module.exports = {
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        'primary': '#371457',  
-        'secondary': '#fece1c',  
+        'primary': '#2b2b2b',  
+        'secondary': '#f0eae2',  
         'terciary': '#B6C295',  
-        'accent': '#C2C3C8', 
+        'accent': '#c192fb', 
         'light': '#ffffff',  
-        'dark': '#000000',  
+        'dark': '#333333',
         'primary-hover': '#004f62',  
         'secondary-hover': '#d0a0ff',  
         'dark-hover': '#3e4345',  
@@ -33,8 +33,8 @@ module.exports = {
         'footer': '#2E1036',
       },
       fontFamily: {
-        'primary': ['Montserrat', 'sans-serif'],
-        'secondary': ['Montserrat', 'sans-serif'],
+        'primary': ['Poppins', 'sans-serif'],
+        'secondary': ['Lato', 'sans-serif'],
       },
       fontSize: {
         'size-0': '0.75rem',

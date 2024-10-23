@@ -39,7 +39,7 @@ const EducationExperience = ({ entries }) => {
             initial="rest"
             whileHover="hover"
             animate="rest"
-            className="collapse collapse-arrow border border-base-300 rounded-box bg-primary"
+            className="collapse collapse-arrow border border-base-300 rounded-box bg-accent"
             variants={zoomOnHover}
           >
             <input type="checkbox" className="peer" id={`toggle-${index}`} hidden />
@@ -52,7 +52,7 @@ const EducationExperience = ({ entries }) => {
 
             <AnimatePresence>
               <motion.div
-                className="collapse-content peer-checked:block hidden bg-light text-primary accordion-detail text-xs sm:text-sm md:text-base lg:text-lg"
+                className="collapse-content peer-checked:block hidden bg-image-with-overlay text-light accordion-detail text-xs sm:text-sm md:text-base lg:text-lg"
                 initial="hidden"
                 animate="visible"
                 exit="exit"

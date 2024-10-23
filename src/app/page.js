@@ -46,7 +46,7 @@ export default function Home() {
     title: "Magister en Marketing y Gerencia",
     image: "/assets/images/profile/profile.jpg",
     description:
-      "experta en marketing con una maestría en Marketing Digital, se especializa en crear estrategias digitales innovadoras y efectivas. Su enfoque se centra en impulsar el crecimiento de la marca y optimizar la presencia en línea a través de tácticas de marketing de vanguardia.",
+      "Experta en marketing con una maestría en Marketing Digital, se especializa en crear estrategias digitales innovadoras y efectivas. Su enfoque se centra en impulsar el crecimiento de la marca y optimizar la presencia en línea a través de tácticas de marketing de vanguardia.",
     phone: "+593992542248",
   };
 
@@ -62,30 +62,30 @@ export default function Home() {
   const contacts = [
     {
       type: "location",
-      icon: "/assets/icons/location.png",
+      icon: "/assets/icons/ubicacion_w.jpeg",
       text: "Dirección",
       address:
-        "Juan Montalvo 53 y Abdón Calderón, Urb. Ontaneda, Conocoto, Quito, Ecuador",
+        "Abdón Calderón 181 y Angel Acosta, Urb. Acosta Soberón, Conocoto, Quito, Ecuador",
       hours: "Lunes a Viernes, 9:00 AM - 6:00 PM",
       googleMapsLink:
         "https://www.google.com/maps/place/ANVETCORP+Inform%C3%A1tica+y+Tecnolog%C3%ADa/@-0.2987752,-78.4889591,18z/data=!4m20!1m13!4m12!1m4!2m2!1d-78.4802151!2d-0.3126909!4e1!1m6!1m2!1s0x91d5a2b0678255c3:0xcba1b16c406a929d!2sanvetcorp!2m2!1d-78.4897359!2d-0.2979049!3m5!1s0x91d5a2b0678255c3:0xcba1b16c406a929d!8m2!3d-0.2979049!4d-78.4897359!16s%2Fg%2F11bwfmfm_t?entry=ttu&g_ep=EgoyMDI0MDkzMC4wIKXMDSoASAFQAw%3D%3D",
     },
     {
       type: "phone",
-      icon: "/assets/icons/call.png",
-      action: "tel:+593992543979",
+      icon: "/assets/icons/call_w.jpeg",
+      action: "tel:+593992542248",
       text: "Llamar",
     },
     {
       type: "email",
-      icon: "/assets/icons/email.png",
-      action: "mailto:aveintimilla@anvetcorp.com",
+      icon: "/assets/icons/email_w.jpeg",
+      action: "mailto:eriveinti@gmail.com.com",
       text: "email",
     },
     {
       type: "whatsapp",
-      icon: "/assets/icons/whatsapp.png",
-      action: "https://wa.me/+593992543979",
+      icon: "/assets/icons/whatsapp_w.png",
+      action: "https://wa.me/+593992542248",
       text: "WhatsApp",
     },
   ];
@@ -100,28 +100,23 @@ export default function Home() {
   const socialMediaLinks = [
     {
       type: "facebook",
-      icon: "facebook.png",
-      url: "https://www.facebook.com/andres.veintimilla1",
+      icon: "facebook_w.png",
+      url: "https://www.facebook.com/likeatemkt?mibextid=ZbWKwL",
       text: "Facebook",
     },
     {
       type: "instagram",
-      icon: "instagram.png",
-      url: "https://www.instagram.com/aveintimillat/",
+      icon: "instagram_w.png",
+      url: "https://www.instagram.com/likeate.digital/?igsh=bzh1c3l0NGt2MmYx",
       text: "Instagram",
     },
     {
-      type: "twitter",
-      icon: "twitterx.png",
-      url: "https://x.com/aveintimillat",
-      text: "Twitter",
+      type: "tiktok",
+      icon: "tiktok_w.png",
+      url: "https://www.tiktok.com/@marketing.con.ericka?_t=8knFmU8Fup3&_r=1",
+      text: "Tiktok",
     },
-    {
-      type: "linkedin",
-      icon: "linkedin.png",
-      url: "https://www.linkedin.com/in/andres-veintimilla-764a1565/",
-      text: "Linkedin",
-    },
+    
   ];
 
   //---------------------------------------------------------
@@ -236,77 +231,55 @@ export default function Home() {
 
   const entries = [
     {
-      date: "2005",
-      title: "Ingeniero Informático",
-      description: "Universidad Técnica Particular de Loja",
+      date: "2021",
+      title: "Ingeniera en Marketing",
+      description: "Universidad Tecnológica Equinoccial",
       details: [
-        "Desarrollo de habilidades en programación, redes y sistemas operativos.",
-        "Proyectos de investigación en seguridad informática y desarrollo web.",
-        "Administración de bases de datos y diseño de software.",
-        "Prácticas profesionales en empresas de tecnología.",
-        "Prácticas en soporte técnico y help desk.",
+        "Ericka Veintimilla se graduó en Marketing en la Universidad Tecnológica Equinoccial, una institución reconocida por su enfoque innovador y práctico en la enseñanza del marketing.",
+        "Adquirió una base sólida en principios de marketing, estrategias de mercado y comportamiento del consumidor.",
+        "Durante su licenciatura, participó en proyectos enfocados en análisis de mercado y estrategias de branding.",
+        "Desarrolló habilidades en la creación de campañas publicitarias y estudios de mercado para negocios locales.",
       ],
-      image: "/assets/images/education/utpl.jpeg",
+      image: "/assets/images/education/ute_logo.jpeg",
     },
     {
-      date: "2022",
-      title: "Máster en Tecnologías de la Información",
-      description: "IEXE Tec Universidad",
+      date: "2023",
+      title: "Máster en Marketing Digital",
+      description: "Escuela de Postgrado Newman",
       details: [
-        "Especialización en diseño web Full Stack y desarrollo de aplicaciones.",
-        "Gestión de proyectos de tecnología y sistemas de información.",
-        "Seguridad informática y protección de datos.",
-        "Prácticas profesionales en empresas de tecnología.",
+        "Complementó su educación con un máster en Marketing Digital en la Escuela de Postgrado Newman.",
+        "Especialización en las últimas tendencias y herramientas del marketing digital, incluyendo SEO, redes sociales y análisis de datos.",
+        "Adoptó estrategias digitales innovadoras para mejorar la presencia online de marcas y empresas.",
+        "Desarrolló campañas digitales para potenciar el engagement en plataformas como Facebook, Instagram y LinkedIn.",
       ],
-      image: "/assets/images/education/iexe.png",
+      image: "/assets/images/education/newman_logo.png",
     },
     {
-      date: "2008 - Presente",
-      title: "Presidente y CEO de Anvetcorp S.A.S.",
-      description: "Informática y Tecnología Anvetcorp S.A.S.",
+      date: "2022 - Presente",
+      title: "Experta en Creación de Contenido y Manejo de Redes Sociales",
+      description: "Consultora de Marketing Digital",
       details: [
-        "Liderando el crecimiento de la empresa especializada en soporte técnico y soluciones tecnológicas.",
-        "Implementación de proyectos de repotenciación de computadoras y soluciones de infraestructura TI.",
-        "Desarrollo de soluciones web personalizadas para empresas y clientes individuales.",
-        "Gestión de equipos de soporte técnico y atención al cliente.",
-        "Consultoría en tecnologías de la información y soluciones empresariales.",
-        "Desarrollo de estrategias de marketing digital y presencia online.",
-        "Gestión de alianzas estratégicas y relaciones con proveedores.",
-        "Desarrollo de productos y servicios innovadores para el mercado.",
-        "Outsourcing de soporte técnico y gestión de infraestructura TI.",
-        "Administración de redes LAN y WiFi para empresas.",
-        "Diseño web y administración de hosting y dominios.",
-        "Venta de computadoras y accesorios informáticos.",
-        "Desarrollo de tarjetas de presentación digitales para empresas.",
-        "Asesoramiento en protección eléctrica y seguridad informática.",
-        "Implementación de soluciones de seguridad informática y protección de datos.",
-        "Mantenimiento preventivo y correctivo de equipos informáticos.",
-        "Soporte técnico y help desk para empresas y clientes individuales.",
+        "Asesorando a empresas en la creación de contenido estratégico para diversas plataformas digitales.",
+        "Gestión de redes sociales para marcas, logrando un aumento significativo en seguidores y engagement.",
+        "Desarrollo de campañas creativas que incrementaron la visibilidad y conversión en las plataformas de redes sociales.",
+        "Estrategias de contenido orientadas a mejorar la identidad de marca y generar leads cualificados.",
       ],
-      image: "/assets/images/education/anvetcorp.png",
+      image: "/assets/images/education/service3.jpg",
     },
     {
-      date: "2012 - 2023",
-      title: "Director de Outsourcing Soporte Técnico",
-      description: "PYMES varias",
+      date: "2022 - Presente",
+      title: "Fundadora de Likeate Digital",
+      description: "Agencia de Marketing Digital",
       details: [
-        "Coordinación de equipos de soporte técnico para clientes empresariales.",
-        "Más de 50 empresas atendidas con soluciones a medida.",
-        "Mantenimiento de sistemas y redes LAN y WiFi en grandes empresas.",
-        "Optimización de infraestructura TI y gestión de servidores.",
-        "Soporte técnico remoto y en sitio para empresas de diversos sectores.",
-        "Desarrollo de soluciones a medida para empresas con necesidades específicas.",
-        "Gestión de contratos de soporte técnico y mantenimiento de equipos.",
-        "Implementación de soluciones de seguridad informática y protección de datos.",
-        "Consultoría en tecnologías de la información y soluciones empresariales.",
-        "Administración de hosting y dominios para empresas y clientes individuales.",
-        "Diseño web y desarrollo de aplicaciones personalizadas para empresas.",
-        "Desarrollo de estrategias de marketing digital y presencia online.",
-        "Instalación de redes LAN y WiFi para empresas.",
+        "Lidera la agencia Likeate Digital, enfocada en estrategias digitales personalizadas para pequeñas y medianas empresas.",
+        "Implementación de campañas de marketing digital que incluyen SEO, SEM, y marketing en redes sociales.",
+        "Consultoría en crecimiento digital y optimización de presencia online.",
+        "Creación de contenido visual y audiovisual para incrementar la interacción en redes sociales.",
       ],
-      image: "/assets/images/education/outsourcing.jpg",
+      image: "/assets/images/education/logo.jpg",
     },
   ];
+  
 
   //---------------------------------------------------------
   // Payment Info

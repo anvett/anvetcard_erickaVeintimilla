@@ -1,4 +1,3 @@
-
 import "./globals.css";
 
 import Navbar from "@/components/navbar/Navbar";
@@ -6,20 +5,24 @@ import Footer from "@/components/footer/Footer";
 
 // Metadata configurada sin viewport
 export const metadata = {
-  title: "Andrés Veintimilla Digital Card",
-  description: "Ingeniero Informático, máster en TI y presidente de Anvetcorp SAS",
-  keywords: "Andrés Veintimilla, Ingeniero Informático, soporte técnico, Anvetcorp, desarrollo web",
-  authors: [{ name: "Andrés Veintimilla" }],
+  title: "Ericka Veintimilla Digital Card",
+  description:
+    "Máster en Marketing Digital, experta en creación de contenido y manejo de redes sociales.",
+  keywords:
+    "Ericka Veintimilla, Marketing Digital, creación de contenido, manejo de redes sociales, estrategias digitales",
+  authors: [{ name: "Ericka Veintimilla" }],
+
   robots: "index, follow",
-  
+
   openGraph: {
-    title: "Andrés Veintimilla Digital Card",
-    description: "Digital Card de Andrés Veintimilla, Presidente de Anvetcorp SAS",
-    url: "https://aveintimillacard.anvetcorp.com",
+    title: "Ericka Veintimilla Digital Card",
+  description:
+    "Digital Card de Ericka Veintimilla, Máster en Marketing Digital y experta en creación de contenido y manejo de redes sociales.",
+  url: "https://erickaveintimilla.anvetcard.com",
     images: [
       {
-        url: "https://aveintimillacard.anvetcorp.com/assets/images/sharedimage.jpeg",
-        alt: "Anvetcorp Logo",
+        url: "https://erickaveintimilla.anvetcard.com/assets/images/sharedimage.jpg",
+        alt: "Likeate Logo",
         width: 1200, // Ajuste de tamaño recomendado para OpenGraph
         height: 630,
       },
@@ -28,9 +31,10 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Andrés Veintimilla - Ingeniero Informático",
-    description: "Ingeniero Informático, máster en TI y presidente de Anvetcorp SAS",
-    images: ["/assets/images/logo.png"],
+    title: "Ericka Veintimilla - Máster en Marketing Digital",
+    description:
+      "Máster en Marketing Digital, experta en creación de contenido y manejo de redes sociales.",
+    images: ["/assets/images/logo.jpg"],
   },
   icons: {
     icon: "/assets/icons/favicon.ico",
