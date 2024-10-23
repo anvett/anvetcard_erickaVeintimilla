@@ -1,5 +1,3 @@
-
-
 "use client";
 
 import React from "react";
@@ -22,14 +20,21 @@ const fadeIn = {
 
 const slideInLeft = {
   hidden: { x: "-100vw", opacity: 0 },
-  visible: { x: 0, opacity: 1, transition: { duration: 0.8, ease: "easeInOut" } },
+  visible: {
+    x: 0,
+    opacity: 1,
+    transition: { duration: 0.8, ease: "easeInOut" },
+  },
 };
 
 const slideInRight = {
   hidden: { x: "100vw", opacity: 0 },
-  visible: { x: 0, opacity: 1, transition: { duration: 0.8, ease: "easeInOut" } },
+  visible: {
+    x: 0,
+    opacity: 1,
+    transition: { duration: 0.8, ease: "easeInOut" },
+  },
 };
-
 
 export default function Home() {
   //---------------------------------------------------------
@@ -37,15 +42,15 @@ export default function Home() {
   //---------------------------------------------------------
 
   const profileData = {
-    name: "Andrés Veintimilla",
-    title: "Presidente y CEO de Anvetcorp S.A.S.",
-    image: "/assets/images/profile/profile.jpeg",
+    name: "Ericka Veintimilla",
+    title: "Magister en Marketing y Gerencia",
+    image: "/assets/images/profile/profile.jpg",
     description:
-      "Ingeniero Informático y Máster en TI con más de 15 años de experiencia en Ingeniería de Soporte, help desk y desarrollo web full stack.",
-    phone: "+593992543979",
+      "experta en marketing con una maestría en Marketing Digital, se especializa en crear estrategias digitales innovadoras y efectivas. Su enfoque se centra en impulsar el crecimiento de la marca y optimizar la presencia en línea a través de tácticas de marketing de vanguardia.",
+    phone: "+593992542248",
   };
 
-  const whatsappMessage = "Hola Andrés, me gustaría conectar contigo.";
+  const whatsappMessage = "Hola Ericka, me gustaría contactarte";
 
   //---------------------------------------------------------
   // Datos de contacto
@@ -59,7 +64,8 @@ export default function Home() {
       type: "location",
       icon: "/assets/icons/location.png",
       text: "Dirección",
-      address: "Juan Montalvo 53 y Abdón Calderón, Urb. Ontaneda, Conocoto, Quito, Ecuador",
+      address:
+        "Juan Montalvo 53 y Abdón Calderón, Urb. Ontaneda, Conocoto, Quito, Ecuador",
       hours: "Lunes a Viernes, 9:00 AM - 6:00 PM",
       googleMapsLink:
         "https://www.google.com/maps/place/ANVETCORP+Inform%C3%A1tica+y+Tecnolog%C3%ADa/@-0.2987752,-78.4889591,18z/data=!4m20!1m13!4m12!1m4!2m2!1d-78.4802151!2d-0.3126909!4e1!1m6!1m2!1s0x91d5a2b0678255c3:0xcba1b16c406a929d!2sanvetcorp!2m2!1d-78.4897359!2d-0.2979049!3m5!1s0x91d5a2b0678255c3:0xcba1b16c406a929d!8m2!3d-0.2979049!4d-78.4897359!16s%2Fg%2F11bwfmfm_t?entry=ttu&g_ep=EgoyMDI0MDkzMC4wIKXMDSoASAFQAw%3D%3D",
@@ -131,9 +137,9 @@ export default function Home() {
         "Atención personalizada para resolver problemas técnicos.",
         "Soporte remoto y en sitio para garantizar el funcionamiento.",
         "Monitoreo proactivo para evitar fallos inesperados.",
-        "Consultoría en optimización y gestión de sistemas."
+        "Consultoría en optimización y gestión de sistemas.",
       ],
-      highlight: "Soporte 24/7 disponible"
+      highlight: "Soporte 24/7 disponible",
     },
     {
       type: "image",
@@ -143,9 +149,9 @@ export default function Home() {
         "Mejoramos la velocidad de tu equipo con discos SSD.",
         "Ampliación de memoria RAM para mayor rendimiento.",
         "Actualización de hardware y optimización del sistema.",
-        "Recupera la eficiencia de tu equipo sin comprar uno nuevo."
+        "Recupera la eficiencia de tu equipo sin comprar uno nuevo.",
       ],
-      highlight: "Promoción especial: 10% de descuento en repotenciación"
+      highlight: "Promoción especial: 10% de descuento en repotenciación",
     },
     {
       type: "image",
@@ -155,9 +161,9 @@ export default function Home() {
         "Soluciones a medida para empresas de cualquier tamaño.",
         "Mantenimiento de equipos y redes empresariales.",
         "Protección avanzada con seguridad informática.",
-        "Planes de soporte continuos para asegurar operaciones sin interrupciones."
+        "Planes de soporte continuos para asegurar operaciones sin interrupciones.",
       ],
-      highlight: "Soporte mensual desde $99"
+      highlight: "Soporte mensual desde $99",
     },
     {
       type: "image",
@@ -167,9 +173,9 @@ export default function Home() {
         "Externalización completa de la gestión de TI.",
         "Ahorro de costos operativos con un equipo especializado.",
         "Adaptación de soluciones tecnológicas a las necesidades del negocio.",
-        "Mantenimiento preventivo y correctivo."
+        "Mantenimiento preventivo y correctivo.",
       ],
-      highlight: "Consultoría gratuita en la primera reunión"
+      highlight: "Consultoría gratuita en la primera reunión",
     },
     {
       type: "image",
@@ -179,9 +185,9 @@ export default function Home() {
         "Diseño web responsivo y optimizado para SEO.",
         "Administración de hosting y dominios personalizados.",
         "Mantenimiento de sitios web para máxima funcionalidad.",
-        "Implementación de tiendas en línea y plataformas empresariales."
+        "Implementación de tiendas en línea y plataformas empresariales.",
       ],
-      highlight: "Plan desde $30/mes"
+      highlight: "Plan desde $30/mes",
     },
     {
       type: "image",
@@ -191,12 +197,11 @@ export default function Home() {
         "Instalación de redes LAN y WiFi de alta velocidad.",
         "Configuración de equipos de red para máximo rendimiento.",
         "Mantenimiento y monitorización de redes empresariales.",
-        "Optimización de la seguridad y velocidad de las redes."
+        "Optimización de la seguridad y velocidad de las redes.",
       ],
-      highlight: "Descuento del 15% en instalaciones nuevas"
-    }
+      highlight: "Descuento del 15% en instalaciones nuevas",
+    },
   ];
-  
 
   //---------------------------------------------------------
   //Slider de productos y servicios
@@ -239,7 +244,7 @@ export default function Home() {
         "Proyectos de investigación en seguridad informática y desarrollo web.",
         "Administración de bases de datos y diseño de software.",
         "Prácticas profesionales en empresas de tecnología.",
-        "Prácticas en soporte técnico y help desk."
+        "Prácticas en soporte técnico y help desk.",
       ],
       image: "/assets/images/education/utpl.jpeg",
     },
@@ -251,7 +256,7 @@ export default function Home() {
         "Especialización en diseño web Full Stack y desarrollo de aplicaciones.",
         "Gestión de proyectos de tecnología y sistemas de información.",
         "Seguridad informática y protección de datos.",
-        "Prácticas profesionales en empresas de tecnología."
+        "Prácticas profesionales en empresas de tecnología.",
       ],
       image: "/assets/images/education/iexe.png",
     },
@@ -277,8 +282,6 @@ export default function Home() {
         "Implementación de soluciones de seguridad informática y protección de datos.",
         "Mantenimiento preventivo y correctivo de equipos informáticos.",
         "Soporte técnico y help desk para empresas y clientes individuales.",
-
-
       ],
       image: "/assets/images/education/anvetcorp.png",
     },
@@ -303,10 +306,7 @@ export default function Home() {
       ],
       image: "/assets/images/education/outsourcing.jpg",
     },
-    
-    
   ];
-  
 
   //---------------------------------------------------------
   // Payment Info
@@ -316,7 +316,8 @@ export default function Home() {
     {
       name: "Bank Pichincha",
       logo: "logo_pichincha.png",
-      instructions: "Use estos detalles para realizar el pago. La cuenta está a nombre de Verónica Cano.",
+      instructions:
+        "Use estos detalles para realizar el pago. La cuenta está a nombre de Verónica Cano.",
       details: [
         { label: "Número de Cuenta", value: "5261025500" },
         { label: "Tipo de Cuenta", value: "Ahorros" },
@@ -324,21 +325,33 @@ export default function Home() {
         { label: "Email", value: "aveintimilla@anvetcorp.com" },
       ],
     },
-   
   ];
 
   return (
     <main>
       {/* Sección Inicio */}
-      <motion.div initial="hidden" animate="visible" variants={fadeIn} id="inicio" >
+      <motion.div
+        initial="hidden"
+        animate="visible"
+        variants={fadeIn}
+        id="inicio"
+      >
         <ProfileCard profile={profileData} whatsappMessage={whatsappMessage} />
         <ContactButtons contacts={contacts} />
         <SocialMediaIcons socialLinks={socialMediaLinks} />
       </motion.div>
 
       {/* Educación y Experiencia Laboral */}
-      <motion.div id="curriculum" initial="hidden" animate="visible" variants={fadeIn} className="my-spacing-4">
-        <h1 className="section-subtitle py-spacing-2">Educación y Experiencia Laboral</h1>
+      <motion.div
+        id="curriculum"
+        initial="hidden"
+        animate="visible"
+        variants={fadeIn}
+        className="my-spacing-4"
+      >
+        <h1 className="section-subtitle py-spacing-2">
+          Educación y Experiencia Laboral
+        </h1>
         <EducationExperience entries={entries} />
       </motion.div>
 
@@ -365,10 +378,13 @@ export default function Home() {
         <Slider slides={slidesData} />
       </motion.div>
 
-      
-
       {/* Video Player */}
-      <motion.div initial="hidden" animate="visible" variants={fadeIn} className="my-spacing-4">
+      <motion.div
+        initial="hidden"
+        animate="visible"
+        variants={fadeIn}
+        className="my-spacing-4"
+      >
         <VideoPlayer
           videoSrc="/assets/videos/servicios_informaticos.mp4"
           title="Servicios Informáticos"
@@ -388,7 +404,12 @@ export default function Home() {
       </motion.div>
 
       {/* QR Code */}
-      <motion.div initial="hidden" animate="visible" variants={fadeIn} className="my-spacing-4">
+      <motion.div
+        initial="hidden"
+        animate="visible"
+        variants={fadeIn}
+        className="my-spacing-4"
+      >
         <QRDisplay qrImage="/assets/images/qrCode.png" title="Código QR" />
       </motion.div>
     </main>
