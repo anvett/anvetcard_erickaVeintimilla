@@ -209,20 +209,24 @@ export default function Home() {
 
   const slidesData = [
     {
-      image: "/assets/images/slides/social_media_management.webp",
+      image: "/assets/images/slides/social_media_management.jpeg",
       title: "Manejo de Redes Sociales",
     },
     {
-      image: "/assets/images/slides/consultoria_marketing.webp",
+      image: "/assets/images/slides/consultoria_marketing.jpeg",
       title: "Consultoría de Marketing Digital",
     },
     {
-      image: "/assets/images/slides/branding.webp",
+      image: "/assets/images/slides/branding.jpeg",
       title: "Branding y Creación de Marca",
     },
     {
-      image: "/assets/images/slides/content_creation.webp",
-      title: "Creación de Contenido",
+      image: "/assets/images/slides/cursos_online.jpeg",
+      title: "Cursos Online ",
+    },
+    {
+      image: "/assets/images/slides/campanas_publicitarias.jpeg",
+      title: "Manejo de campañas publicitarias",
     },
   ];
   
