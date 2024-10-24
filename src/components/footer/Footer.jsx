@@ -32,7 +32,7 @@ export default function Footer() {
       </footer>
 
       {/* Footer actual */}
-      <footer className="text-center p-spacing-1 bg-footer text-sm text-base-content">
+      <footer className="text-center p-spacing-1 bg-gradient-primary text-sm text-base-content">
         <p className="text-size-1 sm:text-size-2 text-secondary">
           &copy; 2024 Anvetcorp SAS. All rights reserved.
         </p>

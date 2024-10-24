@@ -1,5 +1,3 @@
-
-
 "use client";
 
 import React from "react";
@@ -11,10 +9,13 @@ const Navbar = () => {
   const pathname = usePathname(); // Obtén la ruta actual
 
   return (
-    <div className="navbar bg-navbar text-size-3 px-4 flex items-center justify-between relative z-50 border-b-2 border-light ">
+    <div className="navbar bg-gradient-primary text-size-3 px-4 flex items-center justify-between relative z-50 border-b-2 border-light ">
       <div className="flex items-center space-x-4">
         <div className="dropdown">
-          <label tabIndex={0} className="btn btn-ghost btn-bg-primary text-primary lg:hidden">
+          <label
+            tabIndex={0}
+            className="btn btn-ghost btn-bg-primary text-primary lg:hidden"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"
@@ -28,53 +29,58 @@ const Navbar = () => {
               />
             </svg>
           </label>
-          <ul className="menu menu-sm dropdown-content mt-3 z-10 p-2 shadow bg-light rounded-box w-64 gap-2">
+          <ul className="menu menu-sm dropdown-content mt-3 z-10 p-2 shadow bg-gradient-primary lightd-box w-64 gap-2">
             <li>
-              <Link className="text-primary" href="#inicio">
+              <Link className="text-light" href="#inicio">
                 Inicio
               </Link>
             </li>
-            
+
             <li>
-              <Link className="text-primary" href="#info_pago">
+              <Link className="text-light" href="#info_pago">
                 Info. Pago
               </Link>
             </li>
             <li>
-              <Link className="text-primary" href="#productos">
+              <Link className="text-light" href="#productos">
                 Productos y servicios
               </Link>
             </li>
             <li>
-              <Link className="text-primary" href="#curriculum">
+              <Link className="text-light" href="#curriculum">
                 CV
               </Link>
             </li>
           </ul>
         </div>
+
+
         <Image
           src="/assets/images/logo.jpg"
           width={50}
           height={50}
-          alt="Logo AnvetCorp"
+          alt="Logo Likeate"
           suppressHydrationWarning
         />
-        
       </div>
       <div className="hidden lg:flex">
         <ul className="menu menu-horizontal text-size-2 font-semibold px-1 gap-2">
           <li>
             <Link
-              className={`nav-link ${pathname === "/" ? "text-terciary" : "text-light"}`}
+              className={`nav-link ${
+                pathname === "/" ? "text-dark" : "text-light"
+              }`}
               href="#inicio"
             >
               Inicio
             </Link>
           </li>
-          
+
           <li>
             <Link
-              className={`nav-link ${pathname === "/faqs" ? "text-terciary" : "text-light"}`}
+              className={`nav-link ${
+                pathname === "/faqs" ? "text-terciary" : "text-light"
+              }`}
               href="#info_pago"
             >
               Info. Pago
@@ -83,7 +89,9 @@ const Navbar = () => {
           <li>
             <Link
               className={`nav-link ${
-                pathname === "/simulador-credito" ? "text-terciary" : "text-light"
+                pathname === "/simulador-credito"
+                  ? "text-terciary"
+                  : "text-light"
               }`}
               href="#productos"
             >
@@ -92,7 +100,9 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              className={`nav-link ${pathname === "/contacto" ? "text-terciary" : "text-light"}`}
+              className={`nav-link ${
+                pathname === "/contacto" ? "text-terciary" : "text-light"
+              }`}
               href="#curriculum"
             >
               CV

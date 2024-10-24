@@ -116,7 +116,6 @@ export default function Home() {
       url: "https://www.tiktok.com/@marketing.con.ericka?_t=8knFmU8Fup3&_r=1",
       text: "Tiktok",
     },
-    
   ];
 
   //---------------------------------------------------------
@@ -126,75 +125,81 @@ export default function Home() {
   const items = [
     {
       type: "image",
-      title: "Soporte Técnico y Help Desk",
-      image: "/assets/images/services/soporte_tecnico.jpg",
+      title: "Manejo de Redes Sociales",
+      image: "/assets/images/services/producto1.jpeg",
       description: [
-        "Atención personalizada para resolver problemas técnicos.",
-        "Soporte remoto y en sitio para garantizar el funcionamiento.",
-        "Monitoreo proactivo para evitar fallos inesperados.",
-        "Consultoría en optimización y gestión de sistemas.",
+        "Plan Básico",
+        "Plan Emprendedor",
+        "Plan Profesional",
+        "Plan Transformación Digital",
+        "Campaña Express",
+        "Plan TikTok Básico",
+        "Plan TikTok Pro",
       ],
-      highlight: "Soporte 24/7 disponible",
+      highlight:
+        "Si necesitas mejorar el manejo de tus redes sociales, lo hacemos por ti, creando contenido, publicando en el horario adecuado, pautando publicidad exitosa, logrando crecer y vender como esperas. Elige el plan que más te guste.",
+      phone: "+593992542248",
     },
     {
       type: "image",
-      title: "Repotenciación de Computadoras",
-      image: "/assets/images/services/repotenciacion_computadoras.jpg",
+      title: "Asesorías 1.1",
+      image: "/assets/images/services/producto2.jpeg",
       description: [
-        "Mejoramos la velocidad de tu equipo con discos SSD.",
-        "Ampliación de memoria RAM para mayor rendimiento.",
-        "Actualización de hardware y optimización del sistema.",
-        "Recupera la eficiencia de tu equipo sin comprar uno nuevo.",
+        "Asesoría Express de tu perfil de Instagram",
+        "Asesoría y auditoría de redes sociales",
+        "Asesoría de preguntas y respuestas",
+        "Asesoría de contenido",
       ],
-      highlight: "Promoción especial: 10% de descuento en repotenciación",
+      highlight:
+        "Si eres una marca, emprendedor, pequeña o gran empresa y quieres impulsar y mejorar tu imagen digital, he creado asesorías con temas específicos según tus necesidades para que logres crecer y vender en el mundo digital.",
+      phone: "+593992542248",
     },
     {
       type: "image",
-      title: "Soporte a Empresas",
-      image: "/assets/images/services/soporte_empresas.png",
+      title: "Diseño de Marca",
+      image: "/assets/images/services/producto3.jpeg",
       description: [
-        "Soluciones a medida para empresas de cualquier tamaño.",
-        "Mantenimiento de equipos y redes empresariales.",
-        "Protección avanzada con seguridad informática.",
-        "Planes de soporte continuos para asegurar operaciones sin interrupciones.",
+        "Logotipo",
+        "Logotipo + manual de marca",
+        "Manual de marca",
+        "Registro de marca",
       ],
-      highlight: "Soporte mensual desde $99",
+      highlight:
+        "Tu marca debe representar e identificar la esencia y el corazón de quién está detrás de lo que eres. Te ayudamos a visualizarla creando el diseño que necesitas para que seas una marca inolvidable y legal.",
+      phone: "+593992542248",
     },
     {
       type: "image",
-      title: "Outsourcing de TI",
-      image: "/assets/images/services/outsourcing.jpg",
+      title: "Manejo de Redes Sociales",
+      image: "/assets/images/services/service1.jpg",
       description: [
-        "Externalización completa de la gestión de TI.",
-        "Ahorro de costos operativos con un equipo especializado.",
-        "Adaptación de soluciones tecnológicas a las necesidades del negocio.",
-        "Mantenimiento preventivo y correctivo.",
+        "Mejoramos el manejo de tus redes sociales con estrategias de contenido, publicaciones en horarios adecuados, y publicidad exitosa.",
       ],
-      highlight: "Consultoría gratuita en la primera reunión",
+      highlight:
+        "Creación de contenido personalizado para hacer crecer y vender a través de redes sociales.",
+      phone: "+593992542248",
     },
     {
       type: "image",
-      title: "Diseño Web con Administración de Hosting y Dominio",
-      image: "/assets/images/services/web_design.jpg",
+      title: "Consultoría y Asesoría de Marketing",
+      image: "/assets/images/services/service2.jpg",
       description: [
-        "Diseño web responsivo y optimizado para SEO.",
-        "Administración de hosting y dominios personalizados.",
-        "Mantenimiento de sitios web para máxima funcionalidad.",
-        "Implementación de tiendas en línea y plataformas empresariales.",
+        "Consultoría personalizada para marcas, emprendedores, y empresas, diseñada para mejorar su presencia y rendimiento en el mundo digital.",
       ],
-      highlight: "Plan desde $30/mes",
+      highlight:
+        "Asesorías específicas para ayudarte a crecer y vender en el mundo digital.",
+      phone: "+593992542248",
     },
     {
       type: "image",
-      title: "Instalación y Administración de Redes LAN y WiFi",
-      image: "/assets/images/services/redes_wifi.jpg",
+      title: "Branding y Creación de Marca",
+      image: "/assets/images/services/service3.jpg",
       description: [
-        "Instalación de redes LAN y WiFi de alta velocidad.",
-        "Configuración de equipos de red para máximo rendimiento.",
-        "Mantenimiento y monitorización de redes empresariales.",
-        "Optimización de la seguridad y velocidad de las redes.",
+        "Creamos el diseño y branding que representa la esencia de tu marca, haciéndola inolvidable y legal.",
       ],
-      highlight: "Descuento del 15% en instalaciones nuevas",
+      highlight:
+        "Te ayudamos a desarrollar una identidad de marca sólida y profesional que conecte con tu audiencia.",
+      phone: "+593992542248",
     },
   ];
 
@@ -204,26 +209,23 @@ export default function Home() {
 
   const slidesData = [
     {
-      image: "/assets/images/slides/repotenciacion_ssd_ram.png",
-      title: "Repotenciación con SSD y RAM",
+      image: "/assets/images/slides/social_media_management.webp",
+      title: "Manejo de Redes Sociales",
     },
     {
-      image: "/assets/images/slides/proteccion_electrica.jpg",
-      title: "Protección eléctrica con UPS",
+      image: "/assets/images/slides/consultoria_marketing.webp",
+      title: "Consultoría de Marketing Digital",
     },
     {
-      image: "/assets/images/slides/venta_computadoras.jpg",
-      title: "Venta de Computadoras",
+      image: "/assets/images/slides/branding.webp",
+      title: "Branding y Creación de Marca",
     },
     {
-      image: "/assets/images/slides/anvetcard.jpg",
-      title: "Tarjetas de presentación digitales",
-    },
-    {
-      image: "/assets/images/slides/web_design.png",
-      title: "Diseño web y hosting",
+      image: "/assets/images/slides/content_creation.webp",
+      title: "Creación de Contenido",
     },
   ];
+  
 
   //---------------------------------------------------------
   // Accordion de experiencia laboral y educación
@@ -279,7 +281,6 @@ export default function Home() {
       image: "/assets/images/education/logo.jpg",
     },
   ];
-  
 
   //---------------------------------------------------------
   // Payment Info
@@ -287,18 +288,45 @@ export default function Home() {
 
   const banksData = [
     {
-      name: "Bank Pichincha",
-      logo: "logo_pichincha.png",
+      name: "Banco Pichincha",
+      logo: "bancoPichincha_b.png",
       instructions:
-        "Use estos detalles para realizar el pago. La cuenta está a nombre de Verónica Cano.",
+        "Use estos detalles para realizar el pago. La cuenta está a nombre de Ericka Veintimilla.",
       details: [
-        { label: "Número de Cuenta", value: "5261025500" },
+        { label: "Número de Cuenta", value: "2204744098" },
         { label: "Tipo de Cuenta", value: "Ahorros" },
-        { label: "Identificación", value: "1103535835" },
-        { label: "Email", value: "aveintimilla@anvetcorp.com" },
+        { label: "Identificación", value: "1726213612" },
+        { label: "Email", value: "eriveinti@gmail.com" },
+      ],
+    },
+    {
+      name: "Banco Guayaquil",
+      logo: "bancoGuayaquil_b.png",
+      instructions:
+        "Use estos detalles para realizar el pago. La cuenta está a nombre de Ericka Veintimilla.",
+      details: [
+        { label: "Número de Cuenta", value: "0013840275" },
+        { label: "Tipo de Cuenta", value: "Ahorros" },
+        { label: "Identificación", value: "1726213612" },
+        { label: "Email", value: "eriveinti@gmail.com" },
+      ],
+    },
+    {
+      name: "Produbanco",
+      logo: "produbanco_b.png",
+      instructions:
+        "Use estos detalles para realizar el pago. La cuenta está a nombre de Ericka Veintimilla.",
+      details: [
+        { label: "Número de Cuenta", value: "18000872592" },
+        { label: "Tipo de Cuenta", value: "Ahorros" },
+        { label: "Identificación", value: "1726213612" },
+        { label: "Email", value: "eriveinti@gmail.com" },
       ],
     },
   ];
+
+  //---------------------------------------------------------
+  //---------------------------------------------------------
 
   return (
     <main>
@@ -359,8 +387,8 @@ export default function Home() {
         className="my-spacing-4"
       >
         <VideoPlayer
-          videoSrc="/assets/videos/servicios_informaticos.mp4"
-          title="Servicios Informáticos"
+          videoSrc="/assets/videos/marketing.mp4"
+          title="Experiencia y Calidad"
         />
       </motion.div>
 
@@ -383,7 +411,7 @@ export default function Home() {
         variants={fadeIn}
         className="my-spacing-4"
       >
-        <QRDisplay qrImage="/assets/images/qrCode.png" title="Código QR" />
+        <QRDisplay qrImage="/assets/images/qrcode.png" title="Código QR" />
       </motion.div>
     </main>
   );

@@ -52,7 +52,7 @@ const EducationExperience = ({ entries }) => {
 
             <AnimatePresence>
               <motion.div
-                className="collapse-content peer-checked:block hidden bg-image-with-overlay text-light accordion-detail text-xs sm:text-sm md:text-base lg:text-lg"
+                className="collapse-content peer-checked:block hidden bg-gradient-primary text-light accordion-detail text-xs sm:text-sm md:text-base lg:text-lg"
                 initial="hidden"
                 animate="visible"
                 exit="exit"
