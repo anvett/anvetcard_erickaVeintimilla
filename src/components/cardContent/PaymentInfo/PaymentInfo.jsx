@@ -52,8 +52,8 @@ const BankInfo = ({ banks }) => {
           <Image
             src={`/assets/images/payment/${bank.logo}`}
             alt={bank.name}
-            width={80}
-            height={80}
+            width={90}
+            height={90}
             className="rounded-xl"
           />
         </motion.div>
