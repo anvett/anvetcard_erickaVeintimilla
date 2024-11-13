@@ -11,6 +11,7 @@ import EducationExperience from "@/components/cardContent/EducationExperience/Ed
 import VideoPlayer from "@/components/VideoPlayer/VideoPlayer.jsx";
 import QRDisplay from "@/components/cardContent/QRDisplay/QRDispaly.jsx";
 import PaymentInfo from "@/components/cardContent/PaymentInfo/PaymentInfo.jsx";
+import DownloadCVButton from "@/components/cardContent/EducationExperience/DownloadCVButton.jsx";
 
 // Animaciones básicas
 const fadeIn = {
@@ -225,7 +226,6 @@ export default function Home() {
       title: "Creación de Contenido",
     },
   ];
-  
 
   //---------------------------------------------------------
   // Accordion de experiencia laboral y educación
@@ -353,7 +353,10 @@ export default function Home() {
         <h1 className="section-subtitle py-spacing-2">
           Educación y Experiencia Laboral
         </h1>
-        <EducationExperience entries={entries} />
+        <p className="text-lg text-center mb-6">
+          Descarga mi CV para conocer más sobre mi experiencia y habilidades.
+        </p>
+        <DownloadCVButton />
       </motion.div>
 
       {/* Productos */}
